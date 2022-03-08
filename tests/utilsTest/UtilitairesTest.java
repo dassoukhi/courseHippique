@@ -1,4 +1,4 @@
-package utils;
+package utilsTest;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -23,6 +23,7 @@ import org.junit.jupiter.api.Test;
 import dao.HyppodromeDao;
 import model.Cheval;
 import model.Course;
+import utils.Utilitaires;
 
 class UtilitairesTest {
 

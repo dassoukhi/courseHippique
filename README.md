@@ -35,6 +35,8 @@ Pour sauvegarder les données, On est parti sur un fichier JSON où on contrôle
 
 L'avantage de tester le code à chaque fois qu'on avance nous permis de nous questionner sur différentes fonctions qu'on a implémenté, de revoir notre logique du code, et de vérifier le bon fonctionnement du code s'il respecte des conditions prédéfinies.
 
+## Coverage
+![image description](https://github.com/dassoukhi/courseHippique/blob/master/coverage.PNG)
 ## Installation
 Cloner le répertoire dans votre bureau par exemple.
 

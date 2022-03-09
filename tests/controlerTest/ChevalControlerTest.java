@@ -14,6 +14,7 @@ import model.Data;
 
 class ChevalControlerTest {
 	
+	
 	CourseControler cc = new CourseControler();
 	ChevalControler chevCont = new ChevalControler();
 

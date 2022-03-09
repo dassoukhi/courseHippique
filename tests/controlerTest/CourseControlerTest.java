@@ -19,7 +19,7 @@ class CourseControlerTest {
 	CourseControler cc = new CourseControler();
 	ChevalControler chevCont = new ChevalControler();
 	
-	
+
 	@Test
 	public void createCourseAndAddToHyppodromeTestOk() throws ParseException {
 		List<Cheval> listBuild = new ArrayList<Cheval>();

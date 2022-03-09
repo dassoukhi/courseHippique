@@ -155,12 +155,12 @@ class UtilitairesTest {
 	void migrateDataOnFileTestOk() throws MalformedURLException, IOException, ParseException {
 		HyppodromeDao hyppoDao = new HyppodromeDao();
 		List<Cheval> listBuild = new ArrayList<Cheval>();
-		Cheval chevA = new Cheval("cheval_je", 3);
-		Cheval chevB = new Cheval("cheval_te", 2);
-		Cheval chevC = new Cheval("cheval_st", 5);
-		Cheval chevD = new Cheval("cheval_oui", 1);
-		Cheval chevE = new Cheval("cheval_non", 8);
-		Cheval chevF = new Cheval("cheval_Fuck", 6);
+		Cheval chevA = new Cheval("cheval_M", 3);
+		Cheval chevB = new Cheval("cheval_N", 2);
+		Cheval chevC = new Cheval("cheval_S", 5);
+		Cheval chevD = new Cheval("cheval_T", 1);
+		Cheval chevE = new Cheval("cheval_U", 8);
+		Cheval chevF = new Cheval("cheval_V", 6);
 		listBuild.add(chevA); listBuild.add(chevB); listBuild.add(chevC); listBuild.add(chevD); listBuild.add(chevE); listBuild.add(chevF);
 		Course course = new Course("coursetTest", "01/01/2010");
 		course.setListeChevaux(listBuild);
